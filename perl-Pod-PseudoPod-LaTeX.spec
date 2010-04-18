@@ -1,5 +1,5 @@
 %define upstream_name    Pod-PseudoPod-LaTeX
-%define upstream_version 1.000
+%define upstream_version 1.101060
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -44,6 +44,4 @@ rm -rf %buildroot
 %doc META.yml Changes README
 %{_mandir}/man3/*
 %perl_vendorlib/*
-%{_bindir}/ppod2latex
-
-
+#{_bindir}/ppod2latex
