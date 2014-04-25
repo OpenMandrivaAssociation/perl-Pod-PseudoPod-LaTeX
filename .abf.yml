@@ -1,2 +1,4 @@
+removed_sources:
+  Pod-PseudoPod-LaTeX-1.101650.tar.gz: fb1314ac7488cd671bfd6f31433846077d71a108
 sources:
-  "Pod-PseudoPod-LaTeX-1.101650.tar.gz": fb1314ac7488cd671bfd6f31433846077d71a108
+  Pod-PseudoPod-LaTeX-1.20110710.tar.gz: 2dd1310e7e1c0b7d21c206999210083ee34b047c
