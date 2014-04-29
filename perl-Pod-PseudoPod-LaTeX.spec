@@ -16,11 +16,12 @@ BuildRequires: perl(IO::String)
 BuildRequires: perl(Pod::PseudoPod)
 BuildRequires: perl(Test::More)
 BuildRequires: perl(Module::Build)
+BuildRequires: perl(JSON::PP)
 
 BuildArch: noarch
 
 %description
-no description found
+Convert Pod::PseudoPod documents into LaTeX.
 
 %prep
 %setup -q -n %{upstream_name}-%{upstream_version}
