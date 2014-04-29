@@ -17,6 +17,7 @@ BuildRequires: perl(Pod::PseudoPod)
 BuildRequires: perl(Test::More)
 BuildRequires: perl(Module::Build)
 BuildRequires: perl(JSON::PP)
+BuildRequires: perl-devel
 
 BuildArch: noarch
 
