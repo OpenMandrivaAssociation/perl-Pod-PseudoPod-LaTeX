@@ -1,16 +1,14 @@
 %define upstream_name    Pod-PseudoPod-LaTeX
-%define upstream_version 1.20190729
-
 Name:       perl-%{upstream_name}
-Version:    %{upstream_version}
-Release:    1
+Version:    1.20190729
+Release:    2
 
 Summary:    Convert Pod::PseudoPod documents into LaTeX
 
 License:    GPL+ or Artistic
 Group:      Development/Perl
 Url:        http://github.com/chromatic/Pod-PseudoPod-LaTeX
-Source0:    https://cpan.metacpan.org/authors/id/C/CH/CHROMATIC/Pod-PseudoPod-LaTeX-%{upstream_version}.tar.gz
+Source0:    https://cpan.metacpan.org/authors/id/C/CH/CHROMATIC/Pod-PseudoPod-LaTeX-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires: perl(IO::String)
@@ -26,7 +24,7 @@ BuildArch: noarch
 Convert Pod::PseudoPod documents into LaTeX.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
